@@ -1,0 +1,250 @@
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4jc.exe  build_config.xml --l4j-debug-all
+WOW64:		yes
+Resource 10:	launch4j
+Resource 22:	<NULL>
+Resource 101:	An error occurred while starting the application.
+Resource 23:	<NULL>
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	<NULL>
+Java max ver:	
+bundledJreSearch()
+Resource 29:	<NULL>
+Resource 1:	<NULL>
+installedJreSearch()
+Resource 18:	1
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	<NULL>
+Resource 26:	<NULL>
+Resource 27:	<NULL>
+Resource 28:	<NULL>
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	launch4j.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe
+Launcher args:	-jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4j.jar"  build_config.xml 
+Args length:	102/32768 chars
+Resource 31:	<NULL>
+Exit code:	0
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4jc.exe  build_config.xml --l4j-debug-all
+WOW64:		yes
+Resource 10:	launch4j
+Resource 22:	<NULL>
+Resource 101:	An error occurred while starting the application.
+Resource 23:	<NULL>
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	<NULL>
+Java max ver:	
+bundledJreSearch()
+Resource 29:	<NULL>
+Resource 1:	<NULL>
+installedJreSearch()
+Resource 18:	1
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	<NULL>
+Resource 26:	<NULL>
+Resource 27:	<NULL>
+Resource 28:	<NULL>
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	launch4j.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe
+Launcher args:	-jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4j.jar"  build_config.xml 
+Args length:	102/32768 chars
+Resource 31:	<NULL>
+Exit code:	1
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4jc.exe  build_config.xml --l4j-debug-all
+WOW64:		yes
+Resource 10:	launch4j
+Resource 22:	<NULL>
+Resource 101:	An error occurred while starting the application.
+Resource 23:	<NULL>
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	<NULL>
+Java max ver:	
+bundledJreSearch()
+Resource 29:	<NULL>
+Resource 1:	<NULL>
+installedJreSearch()
+Resource 18:	1
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	<NULL>
+Resource 26:	<NULL>
+Resource 27:	<NULL>
+Resource 28:	<NULL>
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	launch4j.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe
+Launcher args:	-jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4j.jar"  build_config.xml 
+Args length:	102/32768 chars
+Resource 31:	<NULL>
+Exit code:	0
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4jc.exe  build_config.xml --l4j-debug-all
+WOW64:		yes
+Resource 10:	launch4j
+Resource 22:	<NULL>
+Resource 101:	An error occurred while starting the application.
+Resource 23:	<NULL>
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	<NULL>
+Java max ver:	
+bundledJreSearch()
+Resource 29:	<NULL>
+Resource 1:	<NULL>
+installedJreSearch()
+Resource 18:	1
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	<NULL>
+Resource 26:	<NULL>
+Resource 27:	<NULL>
+Resource 28:	<NULL>
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	launch4j.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe
+Launcher args:	-jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4j.jar"  build_config.xml 
+Args length:	102/32768 chars
+Resource 31:	<NULL>
+Exit code:	0
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4jc.exe  build_config.xml --l4j-debug-all
+WOW64:		yes
+Resource 10:	launch4j
+Resource 22:	<NULL>
+Resource 101:	An error occurred while starting the application.
+Resource 23:	<NULL>
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	<NULL>
+Java max ver:	
+bundledJreSearch()
+Resource 29:	<NULL>
+Resource 1:	<NULL>
+installedJreSearch()
+Resource 18:	1
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	<NULL>
+Resource 26:	<NULL>
+Resource 27:	<NULL>
+Resource 28:	<NULL>
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	launch4j.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\java.exe
+Launcher args:	-jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\Launch4j\launch4j.jar"  build_config.xml 
+Args length:	102/32768 chars
+Resource 31:	<NULL>
+Exit code:	0

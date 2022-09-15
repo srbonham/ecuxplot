@@ -1,0 +1,468 @@
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	<NULL>
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9180 MB, Heap size: 918 MB
+Resource 27:	1000
+Resource 28:	90
+Heap -Xmx:	Requested 1000 MB / 90%, Available: 9180 MB, Heap size: 8262 MB
+Resource 12:	<NULL>
+Resource 17:	true
+Resource 14:	<NULL>
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms918m -Xmx8262m -classpath "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe" org.nyet.ecuxplot.ECUxPlot
+Args length:	122/32768 chars
+Resource 4:	true
+Resource 31:	<NULL>
+Resource 11:	<NULL>
+Resource 6:	60
+Resource 7:	<NULL>
+Resource 5:	true
+Error msg:	Error Starting ECUxPlot
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	<NULL>
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	<NULL>
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	32
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9281 MB, Heap size: 928 MB
+Resource 27:	1000
+Resource 28:	90
+Heap -Xmx:	Requested 1000 MB / 90%, Available: 9281 MB, Heap size: 8353 MB
+Resource 12:	<NULL>
+Resource 17:	true
+Resource 14:	<NULL>
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms928m -Xmx8353m -classpath "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe" org.nyet.ecuxplot.ECUxPlot
+Args length:	122/32768 chars
+Resource 4:	true
+Resource 31:	<NULL>
+Resource 11:	<NULL>
+Resource 6:	60
+Resource 7:	<NULL>
+Resource 5:	true
+Error msg:	Error Starting ECUxPlot
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	application name
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9259 MB, Heap size: 925 MB
+Resource 27:	1000
+Resource 28:	90
+Heap -Xmx:	Requested 1000 MB / 90%, Available: 9259 MB, Heap size: 8333 MB
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	target\ecuxplot-1.0.jar
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms925m -Xmx8333m -classpath "target\ecuxplot-1.0.jar" org.nyet.ecuxplot.ECUxPlot
+Args length:	82/32768 chars
+Resource 4:	true
+Resource 31:	<NULL>
+Resource 11:	true
+Resource 6:	60
+Resource 7:	<NULL>
+Resource 5:	true
+Error msg:	Error Starting ECUxPlot
+Open URL:	url
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9262 MB, Heap size: 926 MB
+Resource 27:	1000
+Resource 28:	90
+Heap -Xmx:	Requested 1000 MB / 90%, Available: 9262 MB, Heap size: 8336 MB
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	target\ecuxplot-1.0.jar
+Resource 15:	<NULL>
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms926m -Xmx8336m -jar "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\target\ecuxplot-1.0.jar"
+Args length:	104/32768 chars
+Resource 4:	true
+Resource 31:	<NULL>
+Resource 11:	true
+Resource 6:	60
+Resource 7:	<NULL>
+Resource 5:	true
+Error msg:	Error Starting ECUxPlot
+Open URL:	url
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9298 MB, Heap size: 929 MB
+Resource 27:	500
+Resource 28:	90
+Heap -Xmx:	Requested 500 MB / 90%, Available: 9298 MB, Heap size: 8368 MB
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	target\ecuxplot-1.0.jar
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms929m -Xmx8368m -classpath "target\ecuxplot-1.0.jar" org.nyet.ecuxplot.ECUxPlot
+Args length:	82/32768 chars
+Resource 4:	<NULL>
+Resource 31:	<NULL>
+Resource 11:	true
+Exit code:	1
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9286 MB, Heap size: 928 MB
+Resource 27:	500
+Resource 28:	90
+Heap -Xmx:	Requested 500 MB / 90%, Available: 9286 MB, Heap size: 8357 MB
+Resource 12:	<NULL>
+Resource 17:	true
+Resource 14:	<NULL>
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	<NULL>
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms928m -Xmx8357m -classpath "C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe" org.nyet.ecuxplot.ECUxPlot
+Args length:	122/32768 chars
+Resource 4:	<NULL>
+Resource 31:	<NULL>
+Resource 11:	true
+Exit code:	1
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	%JAVE_HOME%
+Substitute:	JAVE_HOME = 
+Bundled JRE(s):	
+installedJreSearch()
+Resource 18:	0
+findJavaHome()
+Resource 30:	2
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_341
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (OK)
+Match:		1.008.000_341
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Runtime used:	1.008.000_341 (64-bit)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9129 MB, Heap size: 912 MB
+Resource 27:	500
+Resource 28:	90
+Heap -Xmx:	Requested 500 MB / 90%, Available: 9129 MB, Heap size: 8216 MB
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	target\ecuxplot-1.0.jar
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	-jar
+Launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe
+Launcher args:	-Xms912m -Xmx8216m -classpath "target\ecuxplot-1.0.jar" org.nyet.ecuxplot.ECUxPlot -jar
+Args length:	87/32768 chars
+Resource 4:	<NULL>
+Resource 31:	<NULL>
+Resource 11:	true
+Exit code:	1
+
+
+Version:	3.14
+CmdLine:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\file.exe --l4j-debug-all
+WOW64:		yes
+Resource 10:	<NULL>
+Resource 22:	url
+Resource 101:	Error Starting ECUxPlot
+Resource 23:	ECUxPlot
+Create mutex:	ECUxPlot
+Resource 8:	.
+Working dir:	C:\Users\Shawn Bonham\eclipse-workspace\ECUxPlot_Maven\.
+jreSearch()
+Resource 32:	<NULL>
+Resource 2:	1.8.0
+Java min ver:	1.008.000
+Resource 3:	11.11.11
+Java max ver:	1.011.011_011
+bundledJreSearch()
+Resource 29:	true
+Resource 1:	C:\opt\jdk-11.0.2\bin
+Bundled JRE(s):	C:\opt\jdk-11.0.2\bin
+Check launcher:	C:\opt\jdk-11.0.2\bin\javaw.exe (OK)
+Resource 19:	<NULL>
+Resource 20:	128
+Resource 25:	100
+Resource 26:	10
+Heap -Xms:	Requested 100 MB / 10%, Available: 9265 MB, Heap size: 926 MB
+Resource 27:	500
+Resource 28:	90
+Heap -Xmx:	Requested 500 MB / 90%, Available: 9265 MB, Heap size: 8339 MB
+Resource 12:	<NULL>
+Resource 17:	<NULL>
+Resource 14:	target\ecuxplot-1.0.jar
+Resource 15:	org.nyet.ecuxplot.ECUxPlot
+Main class:	org.nyet.ecuxplot.ECUxPlot
+Resource 16:	<NULL>
+Info:		Classpath not defined.
+Resource 13:	-jar
+Launcher:	C:\opt\jdk-11.0.2\bin\javaw.exe
+Launcher args:	-Xms926m -Xmx8339m -classpath "target\ecuxplot-1.0.jar" org.nyet.ecuxplot.ECUxPlot -jar
+Args length:	87/32768 chars
+Resource 4:	<NULL>
+Resource 31:	<NULL>
+Resource 11:	true
+Exit code:	0

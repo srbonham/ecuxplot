@@ -1,5 +1,4 @@
 *.class
-*.exe
 *.swp
 *.tmp
 .metadata
@@ -14,3 +13,4 @@
 /data/*.zip
 /data/*-*.kp
 /src/org/nyet/util/Version.java
+target/

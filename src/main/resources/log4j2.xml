@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+ <Properties>
+    <Property name="logFilename">content-importer</Property>
+  </Properties>
+   <Appenders>
+   		<File name="MyFile" filename="${sys:logFilename}.log">
+	         <PatternLayout>
+	            <Pattern>%d{MM/dd/yy HH:mm:ss} %-5p - %-4L - %C{1}.%M: %m%n</Pattern>
+	         </PatternLayout>
+		</File>
+   </Appenders>
+   <Loggers>
+      <Root level="info">
+         <AppenderRef ref="MyFile" level="trace" />
+      </Root>
+   </Loggers>
+</Configuration>

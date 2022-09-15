@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>org.nyet</groupId>
+   <artifactId>ecuxplot</artifactId>
+   <version>1.0</version>
+   <packaging>jar</packaging>
+   <properties>
+      <log4jVersion>2.18.0</log4jVersion>
+   </properties>
+   <dependencies>
+      <!-- https://mvnrepository.com/artifact/junit/junit -->
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>4.12</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>com.squareup.okhttp3</groupId>
+         <artifactId>mockwebserver</artifactId>
+         <version>4.9.0</version>
+         <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+      <dependency>
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-core</artifactId>
+         <version>3.9.0</version>
+         <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+      <dependency>
+         <groupId>pl.pragmatists</groupId>
+         <artifactId>JUnitParams</artifactId>
+         <version>1.0.4</version>
+         <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/info.picocli/picocli -->
+      <dependency>
+         <groupId>info.picocli</groupId>
+         <artifactId>picocli</artifactId>
+         <version>4.6.1</version>
+      </dependency>
+      <!-- CSV Processing -->
+      <dependency>
+         <groupId>com.fasterxml.jackson.core</groupId>
+         <artifactId>jackson-core</artifactId>
+         <version>2.12.2</version>
+      </dependency>
+      <dependency>
+         <groupId>com.fasterxml.jackson.core</groupId>
+         <artifactId>jackson-databind</artifactId>
+         <version>2.12.2</version>
+      </dependency>
+      <dependency>
+         <groupId>com.fasterxml.jackson.dataformat</groupId>
+         <artifactId>jackson-dataformat-csv</artifactId>
+         <version>2.12.2</version>
+      </dependency>
+      <!-- HTTP Request libraries -->
+      <dependency>
+         <groupId>org.apache.httpcomponents</groupId>
+         <artifactId>httpclient</artifactId>
+         <version>4.5.13</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.httpcomponents</groupId>
+         <artifactId>httpmime</artifactId>
+         <version>4.5.13</version>
+      </dependency>
+      <!-- Tons of helpful utilities. especially for Files -->
+      <dependency>
+         <groupId>commons-io</groupId>
+         <artifactId>commons-io</artifactId>
+         <version>2.8.0</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-configuration2</artifactId>
+         <version>2.7</version>
+      </dependency>
+      <dependency>
+         <groupId>commons-beanutils</groupId>
+         <artifactId>commons-beanutils</artifactId>
+         <version>1.9.4</version>
+      </dependency>
+      <dependency>
+         <groupId>org.projectlombok</groupId>
+         <artifactId>lombok</artifactId>
+         <version>1.18.16</version>
+         <scope>provided</scope>
+      </dependency>
+      <dependency>
+         <groupId>me.tongfei</groupId>
+         <artifactId>progressbar</artifactId>
+         <version>0.8.1</version>
+      </dependency>
+
+	  
+	  <dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20220320</version>
+	</dependency>
+
+      <!-- LOGGING Libraries -->
+      <dependency>
+         <groupId>org.apache.logging.log4j</groupId>
+         <artifactId>log4j-api</artifactId>
+         <version>${log4jVersion}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.logging.log4j</groupId>
+         <artifactId>log4j-core</artifactId>
+         <version>${log4jVersion}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.logging.log4j</groupId>
+         <artifactId>log4j-slf4j-impl</artifactId>
+         <version>${log4jVersion}</version>
+      </dependency>
+      <dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-collections4</artifactId>
+	    <version>4.1</version>
+	</dependency>
+      <!-- END LOGGING Libraries -->
+	<dependency>
+	    <groupId>xerces</groupId>
+	    <artifactId>xercesImpl</artifactId>
+	    <version>2.8.1</version>
+	</dependency>
+<!-- Start ECUXPLOT-->
+
+
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.0.19</version>
+</dependency>
+<dependency>
+    <groupId>com.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>5.7.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
+<dependency>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.5.0</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>flanagan</groupId>
+    <artifactId>flanagan</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/flanagan.jar</systemPath>
+</dependency>
+
+<dependency>
+    <groupId>flanagan</groupId>
+    <artifactId>flanagan-dist</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/flanagan-dist.jar</systemPath>
+</dependency>
+
+<dependency>
+    <groupId>ru.sscc.jspline</groupId>
+    <artifactId>jspline</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/jspline.jar</systemPath>
+</dependency>
+
+   </dependencies>
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.5</version>
+            <configuration>
+               <source>1.8</source>
+               <target>1.8</target>
+            </configuration>
+         </plugin>
+         <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.1</version>
+            <configuration>
+               <mainClass>org.nyet.ecuxplot.ECUxPlot</mainClass>
+            </configuration>
+         </plugin>
+         <!-- Plugin to package all the libraries into the jar file.  Handles the manifest file too. -->
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.4</version>
+            <executions>
+               <execution>
+                  <phase>install</phase>
+                  <goals>
+                     <goal>shade</goal>
+                  </goals>
+                  <configuration>
+                     <transformers>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                           <mainClass>org.nyet.ecuxplot.ECUxPlot</mainClass>
+                           <manifestEntries>
+                              <Multi-Release>true</Multi-Release>
+                           </manifestEntries>
+                        </transformer>
+                     </transformers>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+          <plugin>
+            <artifactId>exec-maven-plugin</artifactId>
+            <groupId>org.codehaus.mojo</groupId>
+            <version>1.2.1</version>
+            <executions>
+                <execution>
+                    <id>My Command Runner</id>
+                    <phase>install</phase>
+                    <goals>
+                        <goal>exec</goal>
+                    </goals>
+                    <configuration>
+                     	<executable>build.bat</executable>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+      </plugins>
+      <resources>
+      <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+    </resources>   
+   </build>
+</project>

@@ -1,0 +1,1 @@
+Launch4j\launch4jc.exe build_config.xml

@@ -1,0 +1,69 @@
+<!--
+  Bold elements are required.
+  Underlined values are the default when the element is not specified.
+  %VAR% expands environment/special variables and registry keys.
+-->
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <outfile>target/ecuxplot-1.0.exe</outfile>
+  <jar>target/ecuxplot-1.0.jar</jar>
+  <dontWrapJar>true</dontWrapJar>
+  <chdir>.</chdir>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>url</supportUrl>
+  <priority>high</priority>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <icon>target/classes/icons/ECUxPlot.ico</icon>
+  <!--<obj>header object file</obj>
+  <lib>w32api lib</lib>
+  <var>var=text (%VAR%)</var>-->
+  <classPath>
+    <mainClass>org.nyet.ecuxplot.ECUxPlot</mainClass>
+    <cp>lib/*.jar</cp>
+  </classPath>
+  <singleInstance>
+    <mutexName>ECUxPlot</mutexName>
+    <windowTitle>ECUxPlot</windowTitle>
+  </singleInstance> 
+  <jre>
+    <path>%JAVA_HOME%</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion>11.11.11</maxVersion>
+    <jdkPreference>jreOnly</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>500</initialHeapSize>
+    <initialHeapPercent>20</initialHeapPercent>
+    <maxHeapSize>10000</maxHeapSize>
+    <maxHeapPercent>90</maxHeapPercent>
+  </jre>
+  <!-- <splash>
+   <file>target/classes/icons/ECUxPlot-64.png</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>false</timeoutErr>
+  </splash>-->
+  <versionInfo>
+    <fileVersion>1.14.0.0</fileVersion>
+    <txtFileVersion>versoion</txtFileVersion>
+    <fileDescription>fd</fileDescription>
+    <copyright>cr</copyright>
+    <productVersion>1.14.0.0</productVersion>
+    <txtProductVersion>tpv</txtProductVersion>
+    <productName>pn</productName>
+    <companyName>cn</companyName>
+    <internalName>filename</internalName>
+    <originalFilename>filename.exe</originalFilename>
+    <trademarks>tm</trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>Error Starting ECUxPlot</startupErr>
+    <bundledJreErr>Error with JRE</bundledJreErr>
+    <jreVersionErr>JRE Version Error</jreVersionErr>
+    <launcherErr>Error Launching ECUxPlot</launcherErr>
+    <instanceAlreadyExistsMsg>Instance already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
