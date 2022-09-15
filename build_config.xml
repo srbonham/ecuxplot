@@ -7,7 +7,7 @@
   <headerType>gui</headerType>
   <outfile>target/ecuxplot-1.0.exe</outfile>
   <jar>target/ecuxplot-1.0.jar</jar>
-  <dontWrapJar>true</dontWrapJar>
+  <dontWrapJar>false</dontWrapJar>
   <chdir>.</chdir>
   <downloadUrl>http://java.com/download</downloadUrl>
   <supportUrl>url</supportUrl>

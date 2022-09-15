@@ -20,14 +20,6 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.1</version>
-        <configuration>
-          <mainClass>org.nyet.ecuxplot.ECUxPlot</mainClass>
-        </configuration>
-      </plugin>
-      <plugin>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.4</version>
         <executions>
@@ -82,22 +74,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>mockwebserver</artifactId>
-      <version>4.9.0</version>
-      <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>okhttp</artifactId>
-          <groupId>com.squareup.okhttp3</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>kotlin-stdlib-jdk8</artifactId>
-          <groupId>org.jetbrains.kotlin</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>3.9.0</version>
@@ -116,12 +92,6 @@
           <groupId>org.objenesis</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>pl.pragmatists</groupId>
-      <artifactId>JUnitParams</artifactId>
-      <version>1.0.4</version>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>

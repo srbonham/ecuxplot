@@ -16,12 +16,6 @@
          <version>4.12</version>
          <scope>test</scope>
       </dependency>
-      <dependency>
-         <groupId>com.squareup.okhttp3</groupId>
-         <artifactId>mockwebserver</artifactId>
-         <version>4.9.0</version>
-         <scope>test</scope>
-      </dependency>
       <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
       <dependency>
          <groupId>org.mockito</groupId>
@@ -29,61 +23,11 @@
          <version>3.9.0</version>
          <scope>test</scope>
       </dependency>
-      <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-      <dependency>
-         <groupId>pl.pragmatists</groupId>
-         <artifactId>JUnitParams</artifactId>
-         <version>1.0.4</version>
-         <scope>test</scope>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/info.picocli/picocli -->
-      <dependency>
-         <groupId>info.picocli</groupId>
-         <artifactId>picocli</artifactId>
-         <version>4.6.1</version>
-      </dependency>
-      <!-- CSV Processing -->
-      <dependency>
-         <groupId>com.fasterxml.jackson.core</groupId>
-         <artifactId>jackson-core</artifactId>
-         <version>2.12.2</version>
-      </dependency>
-      <dependency>
-         <groupId>com.fasterxml.jackson.core</groupId>
-         <artifactId>jackson-databind</artifactId>
-         <version>2.12.2</version>
-      </dependency>
-      <dependency>
-         <groupId>com.fasterxml.jackson.dataformat</groupId>
-         <artifactId>jackson-dataformat-csv</artifactId>
-         <version>2.12.2</version>
-      </dependency>
-      <!-- HTTP Request libraries -->
-      <dependency>
-         <groupId>org.apache.httpcomponents</groupId>
-         <artifactId>httpclient</artifactId>
-         <version>4.5.13</version>
-      </dependency>
-      <dependency>
-         <groupId>org.apache.httpcomponents</groupId>
-         <artifactId>httpmime</artifactId>
-         <version>4.5.13</version>
-      </dependency>
       <!-- Tons of helpful utilities. especially for Files -->
       <dependency>
          <groupId>commons-io</groupId>
          <artifactId>commons-io</artifactId>
          <version>2.8.0</version>
-      </dependency>
-      <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>commons-configuration2</artifactId>
-         <version>2.7</version>
-      </dependency>
-      <dependency>
-         <groupId>commons-beanutils</groupId>
-         <artifactId>commons-beanutils</artifactId>
-         <version>1.9.4</version>
       </dependency>
       <dependency>
          <groupId>org.projectlombok</groupId>
@@ -96,14 +40,6 @@
          <artifactId>progressbar</artifactId>
          <version>0.8.1</version>
       </dependency>
-
-	  
-	  <dependency>
-	    <groupId>org.json</groupId>
-	    <artifactId>json</artifactId>
-	    <version>20220320</version>
-	</dependency>
-
       <!-- LOGGING Libraries -->
       <dependency>
          <groupId>org.apache.logging.log4j</groupId>
@@ -125,57 +61,43 @@
 	    <artifactId>commons-collections4</artifactId>
 	    <version>4.1</version>
 	</dependency>
-      <!-- END LOGGING Libraries -->
 	<dependency>
-	    <groupId>xerces</groupId>
-	    <artifactId>xercesImpl</artifactId>
-	    <version>2.8.1</version>
+	    <groupId>org.jfree</groupId>
+	    <artifactId>jfreechart</artifactId>
+	    <version>1.0.19</version>
 	</dependency>
-<!-- Start ECUXPLOT-->
-
-
-<dependency>
-    <groupId>org.jfree</groupId>
-    <artifactId>jfreechart</artifactId>
-    <version>1.0.19</version>
-</dependency>
-<dependency>
-    <groupId>com.opencsv</groupId>
-    <artifactId>opencsv</artifactId>
-    <version>5.7.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
-<dependency>
-    <groupId>commons-cli</groupId>
-    <artifactId>commons-cli</artifactId>
-    <version>1.5.0</version>
-</dependency>
-
-
-
-<dependency>
-    <groupId>flanagan</groupId>
-    <artifactId>flanagan</artifactId>
-    <version>1.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/flanagan.jar</systemPath>
-</dependency>
-
-<dependency>
-    <groupId>flanagan</groupId>
-    <artifactId>flanagan-dist</artifactId>
-    <version>1.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/flanagan-dist.jar</systemPath>
-</dependency>
-
-<dependency>
-    <groupId>ru.sscc.jspline</groupId>
-    <artifactId>jspline</artifactId>
-    <version>1.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/jspline.jar</systemPath>
-</dependency>
+	<dependency>
+	    <groupId>com.opencsv</groupId>
+	    <artifactId>opencsv</artifactId>
+	    <version>5.7.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
+	<dependency>
+	    <groupId>commons-cli</groupId>
+	    <artifactId>commons-cli</artifactId>
+	    <version>1.5.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>flanagan</groupId>
+	    <artifactId>flanagan</artifactId>
+	    <version>1.0</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/lib/flanagan.jar</systemPath>
+	</dependency>
+	<dependency>
+	    <groupId>flanagan</groupId>
+	    <artifactId>flanagan-dist</artifactId>
+	    <version>1.0</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/lib/flanagan-dist.jar</systemPath>
+	</dependency>
+	<dependency>
+	    <groupId>ru.sscc.jspline</groupId>
+	    <artifactId>jspline</artifactId>
+	    <version>1.0</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/lib/jspline.jar</systemPath>
+	</dependency>
 
    </dependencies>
    <build>
@@ -187,14 +109,6 @@
             <configuration>
                <source>1.8</source>
                <target>1.8</target>
-            </configuration>
-         </plugin>
-         <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>1.1</version>
-            <configuration>
-               <mainClass>org.nyet.ecuxplot.ECUxPlot</mainClass>
             </configuration>
          </plugin>
          <!-- Plugin to package all the libraries into the jar file.  Handles the manifest file too. -->
