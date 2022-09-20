@@ -192,7 +192,7 @@ public class AxisMenu extends JMenu {
 		addToSubmenu("Calc Boost", "Sim BoostPressureDesired");
 		addToSubmenu("Calc Boost", "Sim LoadSpecified correction");
 	    }
-	} else if(id.matches(".*([Bb]oost|Wastegate|Charge|WGDC|PSI|Baro|Press|PID|Turbine).*")) {
+	} else if(id.matches(".*([Bb]oost|Wastegate|Charge|WGDC|PSI|Baro|Pres|PID|Turbine).*")) {
 	    addToSubmenu("Boost", item);
 	    if(id.matches("BoostPressureDesired")) {
 		if (units==null || !units.equals("PSI"))
@@ -210,6 +210,11 @@ public class AxisMenu extends JMenu {
 		addToSubmenu("Calc PID", "LDR I e dt");
 		addToSubmenu("Calc PID", "LDR PID");
 	    }
+//	    
+		if (units!=null && units.equals("hPa")) {
+			this.add(new DatasetId(id + " (PSI)", null, "PSI"));
+		}
+//		
 	    /* JB4 does noth boost pressure desired, its calc'd */
 	    /* "target" is this delta */
 	    if(id.matches("BoostPressureDesiredDelta")) {

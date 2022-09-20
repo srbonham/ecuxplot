@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Version extends ArrayList<Object> {
     private static final long serialVersionUID = 20150620L;
-    public static final String ECUxPlot="v1.0.2-dirty";
+    public static final String ECUxPlot="v1.0.3";
     public static final String JFreeChart="1.0.19";
     public static final String JCommon="1.0.23";
     public static final String OpenCSV="5.2";

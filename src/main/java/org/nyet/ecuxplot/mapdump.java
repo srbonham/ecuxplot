@@ -1,4 +1,5 @@
-package main.java.org.nyet.ecuxplot;
+package org.nyet.ecuxplot;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.ArrayList;

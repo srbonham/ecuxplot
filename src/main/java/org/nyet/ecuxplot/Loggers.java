@@ -31,10 +31,10 @@ public class Loggers {
 	}
 
 	public static final String[] pedalnames = new String[] { "AcceleratorPedalPosition", "AccelPedalPosition",
-			"Zeitronix TPS", "Accelerator position", "Pedal Position" };
+			"Zeitronix TPS", "Accelerator position", "Pedal Position", "Pedal" };
 
 	public static final String[] throttlenames = new String[] { "ThrottlePlateAngle", "Throttle Angle",
-			"Throttle Valve Angle", "TPS" };
+			"Throttle Valve Angle", "TPS","Throttle pos" };
 
 	public static final String[] gearnames = new String[] { "Gear", "SelectedGear", "Engaged Gear" };
 
@@ -113,8 +113,10 @@ public class Loggers {
 	private static final String[][] DEFAULT_aliases = new String[][] { { "^[Tt]ime$", "TIME" },
 			{ "^[Ee]ngine [Ss]peed$", "RPM" }, { "^[Mm]ass air flow$", "MassAirFlow" } };
 
-	private static final String[][] DS2_aliases = new String[][] { { "^Time\\(s\\)$", "TIME" },
-			{ "^Eng spd\\(1\\/min\\)$", "RPM" }, { "^Pedal\\(%\\)$", "AccelPedalPosition (%)" } };
+	private static final String[][] DS2_aliases = new String[][] { 
+			{ "^Time$", "TIME" },
+			{ "^Eng spd$", "RPM" }, 
+			{"^Pres atmo$","BaroPressure"}};
 
 	private static final Map<LoggerType, String[][]> Aliases = new HashMap<LoggerType, String[][]>() {
 		private static final long serialVersionUID = 1L;
@@ -184,6 +186,8 @@ public class Loggers {
 				return new DetectResult(LoggerType.LOG_VCDS, h[i]);
 			if (h[i].matches("^AP Info:.*"))
 				return new DetectResult(LoggerType.LOG_COBB_AP, h[i]);
+			if (h[i].matches("^Exh gas mass flow pre turbo B1\\(kg\\/h\\)$"))
+				return new DetectResult(LoggerType.LOG_DS2, h[i]);
 		}
 		LoggerType t = detect(h[0]);
 		if (t == LoggerType.LOG_UNKNOWN)
